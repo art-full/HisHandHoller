@@ -1,6 +1,6 @@
 body { font-family: Georgia, serif; line-height:1.6; margin:0; padding:0; background:#fafafa; color:#333; }
 a { color:#005a2c; text-decoration: none; }
-header.header-banner { background: url('assets/CowShed-SunSplit.JPG') center/cover no-repeat; height:350px; display:flex; align-items:center; justify-content:center; position:relative; }
+header.header-banner { background: url('assets/IMG_20240620_063043_189.jpg') center/cover no-repeat; height:350px; display:flex; align-items:center; justify-content:center; position:relative; }
 .header-banner .overlay { background: rgba(0,0,0,0.4); width:100%; padding:2em; text-align:center; color:#fff; }
 .header-banner h1 { font-size:2.5em; margin:0.2em;}
 .header-banner p { font-size:1.2em; margin-bottom:1em;}
