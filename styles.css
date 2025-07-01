@@ -6,6 +6,13 @@ header.header-banner { background: url('assets/CowShed-SunSplit.JPG') center/cov
 .header-banner p { font-size:1.2em; margin-bottom:1em;}
 .header-banner nav a { margin:0 1em; font-weight:bold; color:#fff; }
 .section-home, .contact { padding:2em; max-width:800px; margin:auto; }
-.section-home img { width:100%; margin-top:1em; }
+.section-home img,
+.contact img {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 1em;
+  height: auto;
+}
+
 ul { padding-left:1.5em; }
 footer { background:#e0e0d0; text-align:center; padding:1em; font-size:0.9em; margin-top:2em; }
