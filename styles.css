@@ -1,69 +1,11 @@
-body {
-  font-family: Georgia, serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-  background: #fafafa;
-  color: #333;
-}
-
-header {
-  background: #f2f2e9;
-  padding: 1em;
-  text-align: center;
-}
-
-nav a {
-  margin: 0 1em;
-  text-decoration: none;
-  color: #3a4e2e;
-  font-weight: bold;
-}
-
-.hero {
-  position: relative;
-  max-height: 400px;
-  overflow: hidden;
-}
-
-.hero img {
-  width: 100%;
-  display: block;
-}
-
-.hero-text {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  background: rgba(255,255,255,0.7);
-  padding: 1em;
-}
-
-section {
-  padding: 2em;
-  max-width: 800px;
-  margin: auto;
-}
-
-section img {
-  width: 100%;
-  max-width: 600px;
-  margin-top: 1em;
-}
-
-ul {
-  padding-left: 1.5em;
-}
-
-.contact a {
-  color: #005a2c;
-  text-decoration: none;
-}
-
-footer {
-  background: #e0e0d0;
-  text-align: center;
-  padding: 1em;
-  font-size: 0.9em;
-  margin-top: 2em;
-}
+body { font-family: Georgia, serif; line-height:1.6; margin:0; padding:0; background:#fafafa; color:#333; }
+a { color:#005a2c; text-decoration: none; }
+header.header-banner { background: url('assets/CowShed-SunSplit.JPG') center/cover no-repeat; height:350px; display:flex; align-items:center; justify-content:center; position:relative; }
+.header-banner .overlay { background: rgba(0,0,0,0.4); width:100%; padding:2em; text-align:center; color:#fff; }
+.header-banner h1 { font-size:2.5em; margin:0.2em;}
+.header-banner p { font-size:1.2em; margin-bottom:1em;}
+.header-banner nav a { margin:0 1em; font-weight:bold; color:#fff; }
+.section-home, .contact { padding:2em; max-width:800px; margin:auto; }
+.section-home img { width:100%; margin-top:1em; }
+ul { padding-left:1.5em; }
+footer { background:#e0e0d0; text-align:center; padding:1em; font-size:0.9em; margin-top:2em; }
